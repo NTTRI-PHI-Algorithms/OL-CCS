@@ -35,7 +35,7 @@ In this case, the quadratic optimisation part of the problem (signal - $R_{r}$) 
 
 For the CIM, the injection and local fields can be specified as follows.
 
-$$    \left(\dfrac{dc_{r}}{dt}\right)_{inj,r} = \left(|h_r| - \eta\right). $$
+$$    {\left( \dfrac{dc_{r}}{dt} \right)}_{inj,r} = \left( |h_r| - \eta \right) . $$
 
 $$h_{r} = -{\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M}} A_r^k A_{r'}^k R_{r'}H(c_{r'}) + \sum_{k=1}^M A_{r}^k y^{k} . $$
 
