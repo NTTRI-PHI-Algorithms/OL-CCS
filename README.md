@@ -28,7 +28,7 @@ The Coherent Compressed Sensor (CCS) is designed to solve the problem of $l_0$-R
 
 The problem Hamiltonian can be stated as follows.
 
-$$ H = \sum_{r<r\'}^{N} \sum_{k = 1}^{M} $$
+$$ H = \sum_{r<r\'}^{N} \sum_{k = 1}^{M} A_{r}^{k}A_{r'}^{k}R_{r}R_{r'}\sigma_{r}\sigma_{r'} - \sum_{r=1}^{N}\sum_{k =1}^{M} y^{k}A_{r}^{k}R_{r}\sigma_{r} + {\lambda} \sum_{r = 1}^{N} \sigma_r .$$
 
 The above equation shows an observed signal $y \in \mathbb{R}^M$ and an observation matrix $A \in \mathbb{R}^{M\times N}$. The term $R \in \mathbb{R}^N$ and $\sigma \in \left\{{0,1}\right\}^N$ correspond to the source signal and support vector, respectively.
 In this case, the quadratic optimisation part of the problem (signal - $R_{r}$) is done by using the Classical Digital Processor (CDP) while the combinatorial optimisation part of the problem (support - $\sigma_{r}$) is performed by the CIM in alternate steps.
