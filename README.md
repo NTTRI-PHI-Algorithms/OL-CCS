@@ -30,7 +30,7 @@ The problem Hamiltonian can be stated as follows.
 
 $$ H =  \frac{1}{2} \sum_{r,s}^{N} \sum_{k=1}^{M} A_{r}^{k} A_{s}^{k} R_{r} R_{s} \sigma_{r} \sigma_{s} - \sum_{r=1}^{N} \sum_{k=1}^{M} y^{k} A_{r}^{k} R_{r} \sigma_{r} + {\lambda} \sum_{r=1}^{N} \sigma_r .$$
 
-The above equation shows an observed signal $y \in \mathbb{R}^M$ and an observation matrix $A \in \mathbb{R}^{M\times N}$. The term $R \in \mathbb{R}^N$ and $\sigma \in { \left\{ 0,1 \right\} }^N$ correspond to the source signal and support vector, respectively.
+The above equation shows an observed signal $y \in \mathbb{R}^M$ and an observation matrix $A \in \mathbb{R}^{M\times N}$. The term $R \in \mathbb{R}^N$ and $\sigma \in { \left\( 0,1 \right\) }^N$ correspond to the source signal and support vector, respectively.
 In this case, the quadratic optimisation part of the problem (signal - $R_{r}$) is done by using the Classical Digital Processor (CDP) while the combinatorial optimisation part of the problem (support - $\sigma_{r}$) is performed by the CIM in alternate steps.
 
 For the CIM, the injection and local fields can be specified as follows.
@@ -43,7 +43,7 @@ $H(c_r)$ is the binarised in-phase amplitude by the Heaviside step function. $\e
 Open-Loop CCS is composed of the following stochastic differential equations.
 
 $$
-        \frac{d}{dt}c_r = \left[-1 + p - {\left(c_r^2 + s_r^2\right)} \right]c_r + \widetilde{K}\left(\dfrac{dc_{r}}{dt}\right)_{inj,r} + {g^2}\sqrt{\left(c_r^2 + s_r^2\right) + \frac{1}{2}} W_{r,1},$$
+        \frac{d}{dt}c_r = \left(-1 + p - {\left(c_r^2 + s_r^2\right)} \right)c_r + \widetilde{K}\left(\dfrac{dc_{r}}{dt}\right)_{inj,r} + {g^2}\sqrt{\left(c_r^2 + s_r^2\right) + \frac{1}{2}} W_{r,1},$$
 
 
 $$\frac{d}{dt}s_r = \left[-1 - p - {\left(c_r^2 + s_r^2\right)}\right]s_r + {g^2}\sqrt{\left(c_r^2 + s_r^2\right) + \frac{1}{2}} W_{r,2} .
