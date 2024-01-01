@@ -42,7 +42,7 @@ $$h_{r} = -{\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M}} A_r^k A_{r'}^k R_{r'}H(c
 $H(c_r)$ is the binarised in-phase amplitude by the Heaviside step function. $\eta$ is the threshold which is related to the $l_0$-regularisation parameter $\lambda$ by $\eta = \sqrt{2\lambda}$ according to the Maxwell rule.
 Open-Loop CCS is composed of the following stochastic differential equations.
 
-$$ \frac{d}{dt} c_r = (-1 + p - { ( c_r^2 + s_r^2 ) } ) c_r + \widetilde{K} {( \dfrac{dc_{r}}{dt} )}_{inj,r} $$ ,
+$$ \frac{d}{dt} c_r = (-1 + p - { ( c_r^2 + s_r^2 ) } ) c_r  $$ ,
 
 
 $$\frac{d}{dt}s_r = \left[-1 - p - {\left(c_r^2 + s_r^2\right)}\right]s_r + {g^2}\sqrt{\left(c_r^2 + s_r^2\right) + \frac{1}{2}} W_{r,2} .$$
