@@ -53,7 +53,7 @@ In the CDP, we solve the following system of equations using the Jacobi method.
 $$ R_{r}\sum_{k = 1}^{M} \left(A_{r}^{k}\right)^2 = \sigma_{r}\mathbb{H}_{r}, $$
 
 
-$$ \mathbb{H}_{r} = -\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M} A_{r}^{k}A_{r'}^{k}R_{r'}\sigma_{r'} + \sum_{k =1}^{M} A_{r}^{k}y^{k} .$$
+$$ H_{r} = -\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M} A_{r}^{k}A_{r'}^{k}R_{r'}\sigma_{r'} + \sum_{k =1}^{M} A_{r}^{k}y^{k} .$$
 
 
 ## Pseudo-code
