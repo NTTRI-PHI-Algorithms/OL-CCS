@@ -73,7 +73,7 @@ $$ H_{r} = -\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M} A_{r}^{k}A_{r'}^{k}R_{r'}
 	
 ## Benchmark
 
-OL-CCS performance is evaluated for randomly generated CS problem instances and Magnetic Resonance Imaging (MRI) of a brain. The performance accuracy is evaluated by calculating the Root-Mean-Squared-Error (RMSE) as $$ \sqrt{ \dfrac{1}{N} }, $$
+OL-CCS performance is evaluated for randomly generated CS problem instances and Magnetic Resonance Imaging (MRI) of a brain. The performance accuracy is evaluated by calculating the Root-Mean-Squared-Error (RMSE) as $ \sqrt{ \dfrac{1}{N} }, $
 
 where $R_r$ and $\sigma_r$ is the estimated signal and support from OL-CCS and $x_r$ and $\xi_r$ is the correct signal and support for the CS problem instance. 
 
