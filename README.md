@@ -12,7 +12,7 @@ Github: https://github.com/SuhiG
 1) create a python environment (e.g. CCS)
 2) clone the python repository found at https://github.com/NTTRI-PHI-Algorithms/CCS
 3) install via "pip install ." at the root of the repository
-4) run "python ./CSS/random.py",
+4) see notebook "OLCSS.ipynb" or run "python ./CSS/random.py",
 "python ./CSS/random_observation_noise.py"
 
 
@@ -73,7 +73,7 @@ $$ H_{r} = -\sum_{r' = 1 (\neq r)}^{N}\sum_{k = 1}^{M} A_{r}^{k}A_{r'}^{k}R_{r'}
 	
 ## Benchmark
 
-OL-CCS performance is evaluated for randomly generated CS problem instances and Magnetic Resonance Imaging (MRI) of a brain. The performance accuracy is evaluated by calculating the Root-Mean-Squared-Error (RMSE) as 
+OL-CCS performance is evaluated for randomly generated CS problem instances. The performance accuracy is evaluated by calculating the Root-Mean-Squared-Error (RMSE) as 
 
 $$ \sqrt{\dfrac{1}{N} \sum_{r=1}^N \left(R_r\sigma_r - x_r\xi_r\right)^2}, $$
 
